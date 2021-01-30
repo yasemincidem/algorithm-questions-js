@@ -30,6 +30,7 @@
  Input: s = "art", indices = [1,0,2]
  Output: "rat"
  */
+/* Time complexity O(n)*/
 const restoreString = function(s, indices) {
   let array = s.split('');
   for (let i = 0; i< indices.length; i++) {
