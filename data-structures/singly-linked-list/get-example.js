@@ -12,6 +12,7 @@ class SinglyLinkedList{
   constructor(val){
     this.val = val;
     this.next = null;
+    this.length = 0;
   }
   // Solution 1:
   get(index){
